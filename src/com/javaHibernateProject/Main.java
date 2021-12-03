@@ -18,6 +18,7 @@ public class Main {
 		
 		try {
 			session.beginTransaction();
+			
 			/*SELECT
 			List<Sehirler> sehirler = session.createQuery("from Sehirler s where s.s_id='43' or s.s_id='06'").getResultList();
 			
@@ -41,9 +42,9 @@ public class Main {
 			session.save(sehir);*/
 			
 			
-			//DELETE
+			/*DELETE
 			Sehirler sehir = session.get(Sehirler.class, 83);
-			session.delete(sehir);
+			session.delete(sehir);*/
 			
 			
 			session.getTransaction().commit();
